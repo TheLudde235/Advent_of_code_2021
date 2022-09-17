@@ -1,7 +1,7 @@
 import time
 
-directory = 'leetcode'
-fileName = 'valid-parentheses'
+directory = 'day01'
+fileName = 'star2'
 timer = False
 
 if timer:
