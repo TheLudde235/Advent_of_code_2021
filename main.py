@@ -1,6 +1,6 @@
 import time
 
-directory = 'day01'
+directory = 'day02'
 fileName = 'star2'
 timer = False
 
