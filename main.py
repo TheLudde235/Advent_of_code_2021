@@ -1,8 +1,8 @@
 import time
 
-directory = 'day06'
+directory = 'day07'
 fileName = 'star2'
-timer = False
+timer = True
 
 if timer:
     start = time.time()
