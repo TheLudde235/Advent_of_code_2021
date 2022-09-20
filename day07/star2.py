@@ -42,9 +42,4 @@ def get_lowest(ls):
     return lowest
 
 
-print(average(int_list))
-print(round(average(int_list)))
-print(calculate_total_cost(round(average(int_list))))
-# print(get_lowest(int_list))
-
-# too high: 94_017_648
+print(get_lowest(int_list))

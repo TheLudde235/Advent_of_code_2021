@@ -2,7 +2,7 @@ import time
 
 directory = 'day07'
 fileName = 'star2'
-timer = True
+timer = False
 
 if timer:
     start = time.time()
