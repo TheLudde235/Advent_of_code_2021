@@ -14,27 +14,6 @@ easy_values: dict = {
 
 wire_map: list = ['', '', '', '', '', '', '']
 
-# wires are connected to the wire_map with its indexes:
-#   0000
-#  1    2
-#  1    2
-#   3333
-#  4    5
-#  4    5
-#   6666
-
-# if wire_map == ['b', 'c', 'g', 'e', 'a', 'f', 'd'] the wire connections will look like this:
-#   bbbb
-#  c    g
-#  c    g
-#   eeee
-#  a    f
-#  a    f
-#   dddd
-
-
-# def print_connections(connections: dict):
-
 def get_key(my_dict, val):
     for key, value in my_dict.items():
         if val == value:
