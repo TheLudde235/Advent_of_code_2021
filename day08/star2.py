@@ -1,8 +1,5 @@
 inp_list: list = open('day08/input.txt').read().split('\n')
 
-test_input: str = 'acedgfb cdfbe gcdfa fbcad dab cefabd cdfgeb eafb cagedb ab | cdfeb fcadb cdfeb cdbaf'
-easy_input: str = 'egadfb cdbfeg cegd fecab cgb gbdefca cg fgcdab egfdb bfceg | gbdfcae bgc cg cgb'
-
 easy_values: dict = {
     2: 1,
     3: 7,
