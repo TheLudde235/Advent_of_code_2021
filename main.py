@@ -1,6 +1,6 @@
 import time
 
-directory = 'day08'
+directory = 'day09'
 fileName = 'star2'
 timer = True
 
@@ -11,4 +11,4 @@ exec(open(f'{directory}/{fileName}.py').read())
 
 if timer:
     end = time.time()
-    print(f'{(end - start)*1000}ms')
+    print(f'{round((end - start)*1000, 3)}ms')
